@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "1. call signature 2. generic 3. class",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/juhyunham/ts-study/issues"
   },
-  "homepage": "https://github.com/juhyunham/ts-study#readme"
+  "homepage": "https://github.com/juhyunham/ts-study#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
